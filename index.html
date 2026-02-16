@@ -140,8 +140,8 @@ button { font-family: inherit; cursor: pointer; }
 .mini-cta-pill:hover { opacity: 0.9; transform: translateY(-1px); }
 
 @keyframes mini-pulse {
-  0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(168, 85, 247, 0); }
-  50% { transform: scale(1.04); box-shadow: 0 0 18px 4px rgba(168, 85, 247, 0.35); }
+  0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 transparent; }
+  50% { transform: scale(1.04); box-shadow: 0 0 18px 4px var(--mini-cta-glow, rgba(168,85,247,0.35)); }
 }
 
 .image-only-container { transition: all 0.2s ease; }
@@ -273,7 +273,7 @@ Frequentes</p>
     <div class="mini-cta-wrapper" style="display: flex; justify-content: center; margin: 16px 0 24px 0; padding: 0 12px;" data-tapio-block-id="d89ed7bf-78d3-47b4-955d-bc79112506a8" data-tapio-block-type="MiniCta" data-tapio-block-index="8" data-tapio-block-title="QUERO MAIS INFORMAÇÕES">
       <a href="" class="mini-cta-pill" 
          target="_blank" rel="noopener noreferrer"
-         style="display: inline-block; width: auto; padding: 16px 48px; 
+         style="--mini-cta-glow: rgba(92,92,92,0.35); display: inline-block; width: auto; padding: 16px 48px; 
                 background: linear-gradient(to right, #968F85, #BDBDBD);  color: #E9E9E9; 
                 border-radius: 999px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);
                 font-family: sans-serif, sans-serif; font-weight: 600; font-style: normal; font-size: 14px; text-decoration: none; text-transform: none; text-align: center; letter-spacing: 0.5px;"
